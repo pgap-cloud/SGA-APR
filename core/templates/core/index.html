@@ -1,0 +1,110 @@
+{% extends 'core/base.html' %}
+{% load static %}
+
+{% block content %}
+<div class="container-fluid">
+    <div class="row">
+        <div class="col-12 text-center mb-5">
+            <h1 class="display-4">Bienvenido al Sistema de Gestión APR</h1>
+            <p class="lead text-muted">Asociación de Agua Potable Rural - Simplificando la gestión del agua</p>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title d-flex align-items-center">
+                        <i class="fas fa-water text-primary me-3"></i>¿Qué es una APR?
+                    </h5>
+                    <p class="card-text">
+                        Las Asociaciones de Agua Potable Rural (APR) son organizaciones comunitarias que gestionan el suministro de agua en zonas rurales de Chile, garantizando el acceso al agua potable.
+                    </p>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title d-flex align-items-center">
+                        <i class="fas fa-route text-success me-3"></i>Pasos para Usuarios
+                    </h5>
+                    <ol class="card-text pl-3">
+                        <li>Regístrate en el sistema</li>
+                        <li>Inicia sesión</li>
+                        <li>Consulta tu consumo de agua</li>
+                        <li>Paga tu boleta en línea</li>
+                    </ol>
+                </div>
+            </div>
+        </div>
+
+        <div class="col-md-4 mb-4">
+            <div class="card h-100 shadow-sm">
+                <div class="card-body">
+                    <h5 class="card-title d-flex align-items-center">
+                        <i class="fas fa-link text-info me-3"></i>Enlaces Útiles
+                    </h5>
+                    <div class="list-group">
+                        <a href="https://www.subdere.gov.cl/programas/agua-potable-rural" target="_blank" class="list-group-item list-group-item-action">
+                            Programa de Agua Potable Rural - SUBDERE
+                        </a>
+                        <a href="https://www.siss.gob.cl/" target="_blank" class="list-group-item list-group-item-action">
+                            Superintendencia de Servicios Sanitarios
+                        </a>
+                        <a href="https://www.mop.cl/Agua/Paginas/default.aspx" target="_blank" class="list-group-item list-group-item-action">
+                            Ministerio de Obras Públicas - Agua
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-12">
+            <div class="card bg-light">
+                <div class="card-body text-center">
+                    <h4 class="card-title">Nuestro Compromiso</h4>
+                    <p class="card-text">
+                        Trabajamos para garantizar un servicio de agua potable eficiente, transparente y de calidad para nuestra comunidad rural.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="row mt-4">
+        <div class="col-12 text-center">
+            <div class="btn-group" role="group" aria-label="Acciones principales">
+                <a href="{% url 'registro' %}" class="btn btn-primary btn-lg">
+                    <i class="fas fa-user-plus me-2"></i>Registrarse
+                </a>
+                <a href="{% url 'login' %}" class="btn btn-success btn-lg">
+                    <i class="fas fa-sign-in-alt me-2"></i>Iniciar Sesión
+                </a>
+            </div>
+        </div>
+    </div>
+</div>
+
+{% endblock %}
+
+{% block extra_css %}
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+<style>
+    body {
+        background-color: #f4f6f9;
+    }
+    .card {
+        transition: transform 0.3s ease-in-out;
+    }
+    .card:hover {
+        transform: scale(1.05);
+    }
+    .btn-group .btn {
+        margin: 0 10px;
+    }
+</style>
+{% endblock %}

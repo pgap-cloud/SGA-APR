@@ -1,0 +1,43 @@
+INFO 2024-11-10 22:36:12,163 autoreload 26668 15068 Watching for file changes with StatReloader
+INFO 2024-11-10 22:36:56,645 autoreload 26668 15068 C:\Users\Xmatux3\Desktop\SGA-APR\core\views.py changed, reloading.
+INFO 2024-11-10 22:36:57,218 autoreload 23440 23912 Watching for file changes with StatReloader
+INFO 2024-11-10 22:37:34,715 basehttp 23440 3320 "GET / HTTP/1.1" 302 0
+INFO 2024-11-10 22:37:34,787 basehttp 23440 3320 "GET /dashboard/secretaria/ HTTP/1.1" 200 170
+INFO 2024-11-10 22:37:37,748 basehttp 23440 3320 "GET /logout/ HTTP/1.1" 302 0
+INFO 2024-11-10 22:37:37,753 basehttp 23440 3320 "GET / HTTP/1.1" 200 189
+INFO 2024-11-10 22:38:02,975 basehttp 23440 3320 "GET /login/ HTTP/1.1" 200 630
+INFO 2024-11-10 22:38:12,669 basehttp 23440 3320 "POST /login/ HTTP/1.1" 302 0
+INFO 2024-11-10 22:38:12,686 basehttp 23440 3320 "GET /dashboard/admin/ HTTP/1.1" 200 165
+INFO 2024-11-10 22:38:49,672 autoreload 23440 23912 C:\Users\Xmatux3\Desktop\SGA-APR\core\middleware.py changed, reloading.
+INFO 2024-11-10 22:38:50,162 autoreload 31608 7396 Watching for file changes with StatReloader
+INFO 2024-11-10 22:39:47,005 autoreload 31608 7396 C:\Users\Xmatux3\Desktop\SGA-APR\core\middleware.py changed, reloading.
+INFO 2024-11-10 22:39:47,520 autoreload 26964 1236 Watching for file changes with StatReloader
+INFO 2024-11-10 22:40:22,763 autoreload 26964 1236 C:\Users\Xmatux3\Desktop\SGA-APR\core\views.py changed, reloading.
+INFO 2024-11-10 22:40:23,301 autoreload 9392 23220 Watching for file changes with StatReloader
+INFO 2024-11-10 22:40:41,102 autoreload 9392 23220 C:\Users\Xmatux3\Desktop\SGA-APR\core\urls.py changed, reloading.
+INFO 2024-11-10 22:40:41,593 autoreload 31720 7632 Watching for file changes with StatReloader
+INFO 2024-11-10 22:41:13,806 autoreload 31720 7632 C:\Users\Xmatux3\Desktop\SGA-APR\core\urls.py changed, reloading.
+INFO 2024-11-10 22:41:14,432 autoreload 21228 18540 Watching for file changes with StatReloader
+INFO 2024-11-10 22:41:32,242 autoreload 21228 18540 C:\Users\Xmatux3\Desktop\SGA-APR\core\views.py changed, reloading.
+INFO 2024-11-10 22:41:32,894 autoreload 29932 2312 Watching for file changes with StatReloader
+INFO 2024-11-10 22:42:58,544 autoreload 29932 2312 C:\Users\Xmatux3\Desktop\SGA-APR\core\middleware.py changed, reloading.
+INFO 2024-11-10 22:42:59,033 autoreload 8572 27364 Watching for file changes with StatReloader
+INFO 2024-11-10 22:52:19,445 middleware 8572 10720 Acceso de juan1 a /logout/
+INFO 2024-11-10 22:52:19,457 basehttp 8572 10720 "GET /logout/ HTTP/1.1" 302 0
+INFO 2024-11-10 22:52:19,462 middleware 8572 10720 Acceso no autenticado a /
+INFO 2024-11-10 22:52:19,463 basehttp 8572 10720 "GET / HTTP/1.1" 302 0
+INFO 2024-11-10 22:52:19,471 basehttp 8572 10720 "GET /login/ HTTP/1.1" 200 630
+INFO 2024-11-10 22:52:25,191 basehttp 8572 10720 "POST /login/ HTTP/1.1" 302 0
+INFO 2024-11-10 22:52:25,197 middleware 8572 10720 Acceso de juan1 a /dashboard/admin/
+INFO 2024-11-10 22:52:25,208 basehttp 8572 10720 "GET /dashboard/admin/ HTTP/1.1" 200 165
+INFO 2024-11-10 22:56:40,104 autoreload 8572 27364 C:\Users\Xmatux3\Desktop\SGA-APR\core\apps.py changed, reloading.
+INFO 2024-11-10 22:56:40,553 autoreload 15444 1492 Watching for file changes with StatReloader
+INFO 2024-11-10 22:56:42,893 autoreload 15444 1492 C:\Users\Xmatux3\Desktop\SGA-APR\core\apps.py changed, reloading.
+INFO 2024-11-10 22:56:43,382 autoreload 1028 23332 Watching for file changes with StatReloader
+INFO 2024-11-10 22:56:47,725 autoreload 1028 23332 C:\Users\Xmatux3\Desktop\SGA-APR\core\apps.py changed, reloading.
+INFO 2024-11-10 22:56:48,213 autoreload 30676 30832 Watching for file changes with StatReloader
+INFO 2024-11-10 22:56:56,635 autoreload 30676 30832 C:\Users\Xmatux3\Desktop\SGA-APR\core\apps.py changed, reloading.
+INFO 2024-11-10 22:56:57,168 autoreload 24252 19672 Watching for file changes with StatReloader
+INFO 2024-11-10 22:57:02,649 autoreload 24252 19672 C:\Users\Xmatux3\Desktop\SGA-APR\core\apps.py changed, reloading.
+INFO 2024-11-10 22:57:03,222 autoreload 18616 18108 Watching for file changes with StatReloader
+INFO 2024-11-10 22:57:38,472 autoreload 18616 18108 C:\Users\Xmatux3\Desktop\SGA-APR\apr_system\settings.py changed, reloading.

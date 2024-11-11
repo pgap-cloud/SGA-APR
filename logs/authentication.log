@@ -1,0 +1,14 @@
+[INFO] 2024-11-10 23:01:16,570 signals - Inicio de sesión exitoso - Usuario: juan1, IP: 127.0.0.1
+[INFO] 2024-11-10 23:19:38,909 signals - Inicio de sesión exitoso - Usuario: juan1, IP: 127.0.0.1
+[INFO] 2024-11-10 23:25:09,439 signals - Inicio de sesión exitoso - Usuario: juan1, IP: 127.0.0.1
+[INFO] 2024-11-10 23:31:22,818 signals - Inicio de sesión exitoso - Usuario: juan1, IP: 127.0.0.1
+[INFO] 2024-11-10 23:59:19 signals - Inicio de sesión - Usuario: juana1, Rol: SECRETARIA
+[INFO] 2024-11-11 00:03:16 signals - Inicio de sesión - Usuario: juana1, Rol: SECRETARIA
+[ERROR] 2024-11-11 00:04:06 signals - Error al registrar inicio de sesión fallido: name 'self' is not defined
+[INFO] 2024-11-11 00:04:16 signals - Inicio de sesión - Usuario: juana1, Rol: SECRETARIA
+[INFO] 2024-11-11 00:12:22 signals - Inicio de sesión - Usuario: juana1, Rol: SECRETARIA
+[ERROR] 2024-11-11 00:20:29 signals - Error al registrar cierre de sesión: 'NoneType' object has no attribute 'username'
+[ERROR] 2024-11-11 00:20:34 signals - Error al registrar cierre de sesión: 'NoneType' object has no attribute 'username'
+[ERROR] 2024-11-11 00:20:36 signals - Error al registrar cierre de sesión: 'NoneType' object has no attribute 'username'
+[ERROR] 2024-11-11 00:20:39 signals - Error al registrar cierre de sesión: 'NoneType' object has no attribute 'username'
+[INFO] 2024-11-11 00:21:08 signals - Inicio de sesión - Usuario: juana1, Rol: SECRETARIA
